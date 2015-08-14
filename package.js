@@ -16,7 +16,7 @@ Package.onUse(function(api) {
   api.use('accounts-base', ['client', 'server']);
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('fernandofussuma:battlenet', ['client', 'server']);
+  api.use('fernandofussuma:battlenet@0.0.1', ['client', 'server']);
 
   api.addFiles('battlenet_login_button.css', 'client');
 
